@@ -1,9 +1,7 @@
-.about-container{
-    background-image: url('theme.png');
+#about-container{
     margin: 0;
-    display: flex;
-    justify-content: center;
-    
+    display: block;
+    width: 100%;
 }
 .about-section > h1{
     color: white;
@@ -19,4 +17,22 @@
     font-size: 30px;
     font-weight: 500;
     padding: 1rem 2rem;
+}
+
+@media screen and (max-width:850px){
+    .about-section > h1{
+        color: white;
+        padding: 1.25rem;
+        font-size: 40px;
+        font-weight: 400;
+        text-align: center;
+    }
+    
+    .about-section > p{
+        width: 70%;
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 0.75rem 1.5rem;
+    }
 }
