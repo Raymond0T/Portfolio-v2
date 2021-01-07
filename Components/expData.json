@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "Name": "Project Manager",
+        "Description": "This will give us apple",
+        "skill": "CSS, HTML, JS",
+        "image": "./logo.png",
+        "class": "test"
+    },
+    {
+        "id": 2,
+        "Name": "Coordinator",
+        "Description": "This will give us apple",
+        "skill": "CSS, HTML, JS",
+        "image": "./logo.png",
+        "class": "test"
+    }
+]

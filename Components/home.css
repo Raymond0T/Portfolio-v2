@@ -17,6 +17,7 @@
     top:20%;    
     left: 7%;
     font-weight: 600;
+    width: 100%;
 }
 
 .home-container > p{
@@ -26,6 +27,7 @@
     top:40%;    
     left: 7%;
     font-weight: 300;
+    width: 100%;
 }
 
 /* Button styling for the hero*/
@@ -103,7 +105,7 @@
     
 }
 
-@media screen and (max-width:650px){
+@media screen and (max-width:750px){
     .home-container > h1{
         font-size: 35px;
         top:12%;    
@@ -123,6 +125,32 @@
     .hero-btn{
         font-size: 20px;
         top:30%;    
+        left: 7%;
+        z-index: -1;
+    }
+    
+}
+
+@media screen and (max-width:550px){
+    .home-container > h1{
+        font-size: 26px;
+        top:11%;    
+        left: 7%;
+        font-weight: 400;
+        z-index: -1;
+    }
+    
+    .home-container > p{
+        font-size: 11px;
+        top:18%;    
+        left: 7%;
+        font-weight: 250;
+        z-index: -1;
+    }
+    
+    .hero-btn{
+        font-size: 10px;
+        top:23.5%;    
         left: 7%;
         z-index: -1;
     }

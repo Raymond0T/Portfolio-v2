@@ -1,8 +1,10 @@
 .nav-container{
     width: 100%;
     position: sticky;
+    top: 0;
     background-color: black;
     color: white;
+    z-index: 98;
 }
 
 .nav-bar{

@@ -15,7 +15,6 @@ function Home(){
                 <p>Connect with me on LinkedIn</p>
                 <button className="hero-btn hero-btn-font">LinkedIn</button>
             </div>
-            <About />
         </div>
     );
 }

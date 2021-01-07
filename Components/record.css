@@ -1,0 +1,36 @@
+.record-card{
+    border: 2px solid rgb(70, 68, 68);
+    border-radius: 5px;
+    padding: 1.5rem 0;
+    margin: 1rem;
+    width: 300px;
+}
+
+
+.record-card >img{
+    width: 90%;
+    height: 200px;
+}
+.record-card >h1{
+    color: rgb(230, 38, 236);
+}
+
+.record-card >p{
+    color: white;
+}
+
+.record-card > button{
+    font-size: 24px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+}
+
+.git-btn-icon{
+    width: 20px;
+    height: 20px;
+    padding: 0 0.5rem;
+}
+
