@@ -2,24 +2,41 @@
     border: 2px solid rgb(70, 68, 68);
     border-radius: 5px;
     padding: 1.5rem 0;
+    padding-bottom: 2rem;
     margin: 1rem;
     width: 300px;
 }
 
-
 .record-card >img{
     width: 90%;
-    height: 200px;
-}
-.record-card >h1{
-    color: rgb(230, 38, 236);
+    height: auto;
+    border-radius: 10px;
 }
 
 .record-card >p{
     color: white;
 }
 
-.record-card > button{
+.record-card > a {
+    text-decoration: none;
+}
+
+.git-btn-icon{
+    width: 20px;
+    height: 20px;
+    padding: 0 0.5rem;
+    padding-top: 0.15rem ;
+}
+
+.proj-style{
+    color: rgb(43, 175, 228);
+}
+.exp-style{
+    color: rgb(218, 57, 218);
+}
+
+.show-btn{
+    display: inline;
     font-size: 24px;
     border-radius: 5px;
     border: none;
@@ -27,10 +44,55 @@
     background-color: grey;
     color: white;
 }
-
-.git-btn-icon{
-    width: 20px;
-    height: 20px;
-    padding: 0 0.5rem;
+.hide-btn{
+    display: none;
 }
 
+
+/*--------------------------------------------------------------------------------
+    Media Query for record card
+----------------------------------------------------------------------------------*/
+@media screen and (max-width:950px){
+    .record-card > h1{
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width:850px){
+    .record-card > h1{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:650px){
+    .record-card{
+        width:275px;
+        padding: 1.25rem;
+    }
+    .record-card > h1{
+        font-size: 26px;
+    }
+    .show-btn{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .record-card{
+        width:250px;
+        padding: 1rem;
+    }
+    .record-card > h1{
+        font-size: 24px;
+    }
+    .show-btn{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .record-card > h1{
+        font-size: 22px;
+    }
+}

@@ -16,7 +16,6 @@
     font-weight: 500;
     letter-spacing: 5px;
     text-align: center;
-    width: 150%;
     margin: auto;
     transform: rotate(90deg);
     grid-column: 2 / 3;
@@ -24,7 +23,7 @@
     background:var(--themeColor);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    display: inline;
+
 }
 
 .about-section > p{

@@ -1,7 +1,6 @@
 import React from 'react';
 import heroImg from './hero.jpg'
 import './home.css'
-import About from './about.js';
 
 
 function Home(){

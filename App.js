@@ -5,7 +5,7 @@ import Home from './Components/home.js';
 import About from './Components/about.js';
 import Experience from './Components/experience.js';
 import Skill from './Components/skill.js';
-
+import Social from './Components/social.js';
 import Footer from './Components/footer.js';
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
         <About />
         <Skill />
         <Experience />
+        <Social />
         <Footer />
       </div>
     </div>

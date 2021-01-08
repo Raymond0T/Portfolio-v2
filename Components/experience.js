@@ -1,8 +1,7 @@
 import React from 'react';
 import './experience.css';
 import Record from './record.js';
-import Data from './expData.json';
-import dummy from './logo.png';
+import ExpData from './expData.json';
 
 
 function Experience(){
@@ -22,10 +21,12 @@ function Experience(){
         <div id="experience-container">
             <h1>Experience</h1>
             <div className="record-container">
-                <Record text="This will give us appledfaf dfaThis will give us appledfaf dfaThis will give us appledfaf dfaThis will give us aThppledfaf dfaThis will give us appledfaf dfaThis will give us appledfaf dfaThis will give us appledfaf dfaThis will give us appledfaf dfaThis will give us appledfaf dfa"/>
-                <Record />
-                <Record />
-                <Record />
+                {ExpData.map(prop => {
+                    return(
+                        <Record key={prop.id} title={prop.Name} detail={prop.Description} 
+                            framework={prop.skill} image={prop.image} alter={prop.alter} style={prop.class} link={prop.gitLink} btnClass={prop.btnClass}/>)
+                    })
+                }
 
             </div>
         </div>

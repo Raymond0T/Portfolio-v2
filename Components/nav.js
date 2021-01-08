@@ -23,11 +23,11 @@ function Nav(){
                     <a href="#skill-container" className="nav-List" onClick={menuClose}>
                         <li>Skills</li>
                     </a>
-                    <a href="#" className="nav-List" onClick={menuClose}>
-                        <li>Projects</li>
+                    <a href="#experience-container" className="nav-List" onClick={menuClose}>
+                        <li>Experience</li>
                     </a>
-                    <a href="#" className="nav-List" onClick={menuClose}>
-                        <li>Contact</li>
+                    <a href="#social-container" className="nav-List" onClick={menuClose}>
+                        <li>Social</li>
                     </a>
                 </ul>
 
