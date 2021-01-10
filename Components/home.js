@@ -1,7 +1,6 @@
 import React from 'react';
 import heroImg from './hero.jpg'
 import './home.css'
-import About from './about.js';
 
 
 function Home(){
@@ -15,7 +14,6 @@ function Home(){
                 <p>Connect with me on LinkedIn</p>
                 <button className="hero-btn hero-btn-font">LinkedIn</button>
             </div>
-            <About />
         </div>
     );
 }

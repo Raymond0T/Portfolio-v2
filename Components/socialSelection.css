@@ -1,0 +1,54 @@
+.social-select-container{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem 6rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.social-select-container >img{
+    width: 100px;
+    height: 100px;
+    padding: 0.5rem 1rem;
+}
+
+.social-select-container >h1{
+    width: 70%;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 1rem 2rem;
+    margin: auto;
+    grid-column: 1 / 2;
+    grid-row: 1/2;
+    padding: 0.25rem;
+}
+
+
+
+/*--------------------------------------------------------------------------------
+    Media Query for Social title
+----------------------------------------------------------------------------------*/
+
+
+@media screen and (max-width: 850px){
+    .social-select-container >img{
+        width: 75px;
+        height:75px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .social-select-container >img{
+        width: 50px;
+        height:50px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .social-select-container >img{
+        width: 40px;
+        height:40px;
+    }
+}

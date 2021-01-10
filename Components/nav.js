@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './nav.css';
 import defaultLogo from './logo.png';
-import {Link} from 'react-router-dom';
+
 
 
 function Nav(){
@@ -17,18 +17,18 @@ function Nav(){
             <div className="nav-bar">
                 <img id="home-logo" src={defaultLogo} alt="logo"/>
                 <ul className={hamburger ? "nav-tabs close" : "nav-tabs"} onClick={menuClose}>
-                    <Link to="/" className="nav-List" onClick={menuClose}>
+                    <a href="#hero-background" className="nav-List" onClick={menuClose}>
                         <li>Home</li>
-                    </Link>
-                    <Link to="/" className="nav-List" onClick={menuClose}>
-                        <li>Projects</li>
-                    </Link>
-                    <Link to="/" className="nav-List" onClick={menuClose}>
+                    </a>
+                    <a href="#skill-container" className="nav-List" onClick={menuClose}>
                         <li>Skills</li>
-                    </Link>
-                    <Link to="/" className="nav-List" onClick={menuClose}>
-                        <li>Contact</li>
-                    </Link>
+                    </a>
+                    <a href="#experience-container" className="nav-List" onClick={menuClose}>
+                        <li>Experience</li>
+                    </a>
+                    <a href="#social-container" className="nav-List" onClick={menuClose}>
+                        <li>Social</li>
+                    </a>
                 </ul>
 
                 <div className="hamburger-menu-container"  onClick={openSwitch}>
