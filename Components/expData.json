@@ -8,7 +8,7 @@
         "class": "proj-style",
         "alter": "index-logo",
         "btnClass": "show-btn",
-        "gitLink": "dffsdf"
+        "gitLink": "https://github.com/Raymond0T/CSE111-DB"
     },
     {
         "id": 2,
@@ -18,8 +18,8 @@
         "image": "/images/library.png",
         "class": "proj-style",
         "alter": "library-logo",
-        "btnClass": "show-btn",
-        "gitLink": "dffsdf"
+        "btnClass": "hide-btn",
+        "gitLink": ""
     },
     {
         "id": 3,
@@ -29,8 +29,8 @@
         "image": "/images/nat-app.jpeg",
         "class": "proj-style",
         "alter": "app-logo",
-        "btnClass": "show-btn",
-        "gitLink": "dffsdf"
+        "btnClass": "hide-btn",
+        "gitLink": ""
     },
     {
         "id": 4,
@@ -41,7 +41,7 @@
         "class": "proj-style",
         "alter": "web-logo",
         "btnClass": "show-btn",
-        "gitLink": "dffsdf"
+        "gitLink": "https://github.com/Raymond0T/Portfolio-v1"
     },
     {
         "id": 5,

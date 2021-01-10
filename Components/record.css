@@ -15,10 +15,12 @@
 
 .record-card >p{
     color: white;
+    padding: 0.5rem;
 }
 
 .record-card > a {
     text-decoration: none;
+    padding: 0.5rem;
 }
 
 .git-btn-icon{

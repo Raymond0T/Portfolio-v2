@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImg from './hero.jpg'
+import heroImg from '../icons/hero.jpg'
 import './home.css'
 
 
@@ -8,11 +8,15 @@ function Home(){
         <div>
             <div className="home-container">
                 <img id="hero-background" src={heroImg} />
-                <h1> 
-                    Software Developer
-                </h1>
-                <p>Connect with me on LinkedIn</p>
-                <button className="hero-btn hero-btn-font">LinkedIn</button>
+                <div className="hero-content">
+                    <h1> 
+                        Software Engineer
+                    </h1>
+                    <p>Learn about my projects and experiences</p>
+                    <a href="#experience-container">
+                        <button className="hero-btn hero-btn-font">Learn Now</button>
+                    </a>
+                </div>
             </div>
         </div>
     );

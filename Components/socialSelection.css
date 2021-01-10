@@ -13,6 +13,48 @@
     padding: 0.5rem 1rem;
 }
 
+/*--------------------------------------------------
+    Bounce animation for social logo
+----------------------------------------------------*/
+.social-select-container > img:hover{
+    -webkit-animation: bounce 1s ease-in-out;
+    -o-animation: bounce 1s ease-in-out;
+    -moz-animation: bounce 1s ease-in-out;
+    animation: bounce 1s ease-in-out;
+}
+
+@-webkit-keyframes bounce{
+    0%, 50%, 100% {-webkit-transform: translateY(0);}
+    20%{-webkit-transform: translateY(10px); }
+    40%{-webkit-transform: translateY(-35px); }
+    60%{-webkit-transform: translateY(-20px);}
+    80%{-webkit-transform: translateY(5px);}
+}
+
+@-o-keyframes bounce{
+    0%, 50%, 100% {-webkit-transform: translateY(0);}
+    20%{-webkit-transform: translateY(10px); }
+    40%{-webkit-transform: translateY(-35px); }
+    60%{-webkit-transform: translateY(-20px);}
+    80%{-webkit-transform: translateY(5px);}
+}
+
+@-moz-keyframes bounce{
+    0%, 50%, 100% {-webkit-transform: translateY(0);}
+    20%{-webkit-transform: translateY(10px); }
+    40%{-webkit-transform: translateY(-35px); }
+    60%{-webkit-transform: translateY(-20px);}
+    80%{-webkit-transform: translateY(5px);}
+}
+
+@keyframes bounce{
+    0%, 50%, 100% {-webkit-transform: translateY(0);}
+    20%{-webkit-transform: translateY(10px); }
+    40%{-webkit-transform: translateY(-35px); }
+    60%{-webkit-transform: translateY(-20px);}
+    80%{-webkit-transform: translateY(5px);}
+}
+
 .social-select-container >h1{
     width: 70%;
     color: white;
@@ -22,7 +64,8 @@
     margin: auto;
     grid-column: 1 / 2;
     grid-row: 1/2;
-    padding: 0.25rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -37,6 +80,11 @@
         width: 75px;
         height:75px;
     }
+    .social-select-container >h1{
+        font-size: 28px;
+        font-weight: 500;
+    }
+    
 }
 
 @media screen and (max-width: 650px){
@@ -44,11 +92,19 @@
         width: 50px;
         height:50px;
     }
+    .social-select-container >h1{
+        font-size: 26px;
+        font-weight: 450;
+    }
 }
 
 @media screen and (max-width: 450px){
     .social-select-container >img{
         width: 40px;
         height:40px;
+    }
+    .social-select-container >h1{
+        font-size: 26px;
+        font-weight: 500;
     }
 }

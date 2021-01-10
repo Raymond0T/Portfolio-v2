@@ -19,13 +19,15 @@
     margin: auto;
     transform: rotate(90deg);
     grid-column: 2 / 3;
-    justify-self: end;
+    justify-self: start;
     background:var(--themeColor);
     -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
-
+    text-shadow: 0 0 60px rgb(43, 175, 228), 0 0 70px rgb(218, 57, 218);
 }
-
 .about-section > p{
     width: 70%;
     color: white;

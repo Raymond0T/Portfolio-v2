@@ -2,7 +2,7 @@ import React from 'react';
 import './record.css';
 import githubIcon from '../icons/github-btn-icon.png';
 
-function Record({title, detail, framework, image, style, link, alter, btnClass}){
+function Record({title, detail, framework, image, style, link, alter, btnClass, web}){
     
 
     return(

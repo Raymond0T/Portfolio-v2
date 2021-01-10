@@ -4,12 +4,16 @@
     padding: 2rem 0;
     display: grid;
     grid-template-columns: 20% 80%;
-    grid-template-rows: 100%;
+    grid-template-rows: 10% 80% 10%;
+    overflow: hidden;
 }
 
 .social-section{
     justify-self: start;
     grid-column: 1 / 2;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
 }
 
 .social-section > h1{
@@ -18,14 +22,20 @@
     font-weight: 500;
     letter-spacing: 5px;
     margin: auto;
-    padding-bottom: 3rem;
     transform: rotate(-90deg);
     background:var(--themeColor);
     -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 60px rgb(43, 175, 228), 0 0 70px rgb(218, 57, 218);
 }
 
 .social-logo-container{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: auto;
     padding: 2rem 0;
     margin: 0 auto;
     display: flex;

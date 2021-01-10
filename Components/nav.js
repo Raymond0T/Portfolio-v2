@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './nav.css';
-import defaultLogo from './logo.png';
+import defaultLogo from '../icons/logo.png';
 
 
 
@@ -15,7 +15,9 @@ function Nav(){
     return(
         <div className="nav-container">
             <div className="nav-bar">
-                <img id="home-logo" src={defaultLogo} alt="logo"/>
+                <a href="#hero-background">
+                    <img id="home-logo" src={defaultLogo} alt="logo"/>
+                </a>
                 <ul className={hamburger ? "nav-tabs close" : "nav-tabs"} onClick={menuClose}>
                     <a href="#hero-background" className="nav-List" onClick={menuClose}>
                         <li>Home</li>
