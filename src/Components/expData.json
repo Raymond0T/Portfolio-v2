@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "Name": "Streamer Index",
+        "Description": "A database with a functioning front-end that stores information about Streamers/content creators. ",
+        "skill": "CSS, HTML, Node.js, Express Server, REST API, SQL",
+        "image": "/images/stream-index.png",
+        "class": "proj-style",
+        "alter": "index-logo",
+        "btnClass": "show-btn",
+        "gitLink": "https://github.com/Raymond0T/CSE111-DB"
+    },
+    {
+        "id": 2,
+        "Name": "Library Exhibit Application",
+        "Description": "A web application for University of California, Merced Library to increase traffic towards their digital library exhibit",
+        "skill": "CSS, HTML, JavaScript, SQL",
+        "image": "/images/library.png",
+        "class": "proj-style",
+        "alter": "library-logo",
+        "btnClass": "hide-btn",
+        "gitLink": ""
+    },
+    {
+        "id": 3,
+        "Name": "Naturalist Application",
+        "Description": "A mobile application that helps identify species in The Vernal Pool and Grassland Reserve located near University of California, Merced.",
+        "skill": "Node.js, AWS",
+        "image": "/images/nat-app.jpeg",
+        "class": "proj-style",
+        "alter": "app-logo",
+        "btnClass": "hide-btn",
+        "gitLink": ""
+    },
+    {
+        "id": 4,
+        "Name": "Personal Website",
+        "Description": "My personal website that was created to display my projects and experiences",
+        "skill": "HTML, CSS, JavaScript, Firebase",
+        "image": "/images/portfolio.png",
+        "class": "proj-style",
+        "alter": "web-logo",
+        "btnClass": "show-btn",
+        "gitLink": "https://github.com/Raymond0T/Portfolio-v1"
+    },
+    {
+        "id": 5,
+        "Name": "Event Staff Supervisor",
+        "Description": "Oversaw student staff during events held by the Recreation and Athletics Department at University of California, Merced",
+        "skill": "",
+        "image": "/images/athletics-logo.jpg",
+        "class": "exp-style",
+        "alter": "athletics-logo",
+        "btnClass": "hide-btn",
+        "gitLink": ""
+    },
+    {
+        "id": 6,
+        "Name": "IT Student Special Events Liaison",
+        "Description": "Worked for the Office of Information Technology at UC Merced to provide technical support during events for all organizations on-campus",
+        "skill": "",
+        "image": "/images/OIT-logo.png",
+        "class": "exp-style",
+        "alter": "OIT-logo",
+        "btnClass": "hide-btn",
+        "gitLink": ""
+    }
+]

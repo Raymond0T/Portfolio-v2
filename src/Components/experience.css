@@ -1,0 +1,59 @@
+#experience-container{
+    padding: 8rem 0;
+}
+#experience-container >h1{
+    color: white;
+    font-weight: 500;
+    font-size: 90px;
+    background: var(--themeColor);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline;
+    float: right;
+    padding-right: 2rem;
+    text-shadow: 0 0 60px rgb(43, 175, 228), 0 0 70px rgb(218, 57, 218);
+}
+
+.record-container{
+    width: 80%;
+    padding: 2rem 0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+/*--------------------------------------------------------------------------------
+    Media Query for experience title
+----------------------------------------------------------------------------------*/
+
+@media screen and (max-width:950px){
+    #experience-container > h1{
+        font-size: 80px;
+    }
+
+}
+
+@media screen and (max-width:850px){
+    #experience-container > h1{
+        font-size: 65px;
+    }
+}
+
+@media screen and (max-width:650px){
+    #experience-container > h1{
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width:500px){
+    #experience-container > h1{
+        font-size: 35px;
+    }
+}
+
+

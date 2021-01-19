@@ -1,0 +1,7 @@
+.app-body{
+    background-image: url('theme.png');
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
