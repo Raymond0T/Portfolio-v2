@@ -7,7 +7,7 @@ function Home(){
     return(
         <div>
             <div className="home-container">
-                <img id="hero-background" src={heroImg} />
+                <img id="hero-background" src={heroImg} alt="alt"/>
                 <div className="hero-content">
                     <h1> 
                         Software Engineer

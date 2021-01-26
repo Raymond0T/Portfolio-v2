@@ -5,7 +5,7 @@ import './socialSelection.css';
 function SocialSelection({logo, text, alt, link}){
     return(
         <div>
-            <a href={link} target="_blank" className="social-select-container">
+            <a href={link} target="_blank" className="social-select-container" rel="noreferrer">
                 <img src={logo} alt={alt}/>
                 <h1>{text}</h1>
             </a>

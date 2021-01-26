@@ -11,6 +11,7 @@
     width: 90%;
     height: auto;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .record-card >p{
@@ -50,13 +51,64 @@
     display: none;
 }
 
+/*--------------------------------------------------------------------------------
+    Modal styling
+----------------------------------------------------------------------------------*/
+.modal-img > img{
+    
+}
 
+.modal-container{
+    position: fixed;
+    left: 50%;
+    top:50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    border: none;
+}
+.modal-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(10, 10, 10, 0.9);
+}
+
+.ReactModal__Overlay {
+    opacity: 0;
+  }
+
+.ReactModal__Overlay--after-open {
+    opacity: 1;
+    transition: opacity 500ms ease-in-out;
+}
+  
+.ReactModal__Overlay--before-close {
+    opacity: 0;
+}
 /*--------------------------------------------------------------------------------
     Media Query for record card
 ----------------------------------------------------------------------------------*/
+
+@media screen and (max-width:1150px){
+
+
+    .modal-img > img{
+        height: 500px;
+        max-width: 850px;
+    }
+
+}
+
 @media screen and (max-width:950px){
     .record-card > h1{
         font-size: 30px;
+    }
+
+    .modal-img > img{
+        height: 500px;
+        max-width: 750px;
     }
 
 }
@@ -64,6 +116,11 @@
 @media screen and (max-width:850px){
     .record-card > h1{
         font-size: 28px;
+    }
+
+    .modal-img > img{
+        height: 400px;
+        max-width: 650px;
     }
 }
 
@@ -78,6 +135,10 @@
     .show-btn{
         font-size: 22px;
     }
+    .modal-img > img{
+        height: 300px;
+        max-width: 490px;
+    }
 }
 
 @media screen and (max-width:500px){
@@ -91,10 +152,19 @@
     .show-btn{
         font-size: 20px;
     }
+    .modal-img > img{
+        height: 300px;
+        max-width: 390px;
+    }
 }
 
 @media screen and (max-width:400px){
     .record-card > h1{
         font-size: 22px;
+    }
+
+    .modal-img > img{
+        height: 265px;
+        max-width:350px;
     }
 }

@@ -17,7 +17,7 @@ function Social(){
             <div className="social-logo-container">
                 <SocialSelection logo={emailLogo} text="Gmail" alt="email-logo" link="https://www.google.com/gmail/about/#"/>
                 <SocialSelection logo={gitLogo} text="Github" alt="github-logo" link="https://github.com/Raymond0T"/>
-                <SocialSelection logo={linkedLogo} text="LinkedIn" alt="LinkedIn-logo" link="https://www.linkedin.com/in/raymond-t-795494163/"/>
+                <SocialSelection logo={linkedLogo} text="LinkedIn" alt="LinkedIn-logo" link="https://www.linkedin.com/in/raymond-trau-795494163"/>
             </div>
             
         </div>

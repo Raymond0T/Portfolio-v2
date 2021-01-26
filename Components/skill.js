@@ -8,6 +8,7 @@ import htmlIcon from '../icons/small_html_icon.png';
 import javaIcon from '../icons/small_java_icon.png';
 import jsIcon from '../icons/small_js_icon.png';
 import sqlIcon from '../icons/small_sql_icon.png';
+import reactIcon from '../icons/react-icon.png';
 
 
 function Skill(){
@@ -22,6 +23,7 @@ function Skill(){
                 <SkillChoice logo={javaIcon} text="Java"/>
                 <SkillChoice logo={jsIcon} text="Javascript"/>
                 <SkillChoice logo={sqlIcon} text="SQL"/>
+                <SkillChoice logo={reactIcon} text="React" />
             </div>
         </div>
     );

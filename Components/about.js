@@ -10,7 +10,7 @@ function About(){
                     About
                 </h1>
                 <p>
-                    Hi, my name is Raymond Trau. I recenetly graduated from Univeristy of California, Merced during Fall 2020 with a B.S in Computer Science and Engineering. 
+                    Hi, my name is Raymond Trau. I recenetly graduated from Univeristy of California, Merced during Fall 2020 with a B.S. in Computer Science and Engineering. 
                     I am open to new opportunities! 
                     <br/><br/><br/>
                     Feel free to connect with me on LinkedIn!
